@@ -5,8 +5,8 @@
 ## WHAT IS THIS FILE? ##
 # This is the GAP program used in section 5.4.1 of arXiv2202.12287 to compute the dimension of H3_DY and H4_DY for the 
 # category of finite-diemnsional modules over the restricted quantum group of sl(2) at the fourth root of unity thanks to 
-# the dimension formula of Corollary 4.9. More precisely we use the reformulation of this formula in terms of invariant
-# subspaces as given in equation (69) of the paper.
+# the dimension formula of Corollary 4.10. More precisely we use the reformulation of this formula in terms of invariant
+# subspaces as given in equation (83) of the paper.
 
 
 ## OUTPUT OF THIS PROGRAM ##
@@ -31,7 +31,7 @@
 
 
 ## WHAT WE HAVE TO COMPUTE ##
-# According to the dimension formula in equation (69) of the paper:
+# According to the dimension formula in equation (83) of the paper:
 # dim(H^3_DY) = dim Inv(QQQ) - dim Inv(QQR) + dim Inv(QQ)
 # dim(H^4_DY) = dim Inv(QQQQ) - dim Inv(QQQR) + dim Inv(QQQ)
 # So we have to:
